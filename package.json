@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js --socialminer socialMiner.jarviscars.com.au"
   },
   "dependencies": {
     "express": "~4.9.0",
