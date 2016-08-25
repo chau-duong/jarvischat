@@ -1,1 +1,1 @@
-web: node index.js
+web: node app.js --socialminer socialminer.jarviscars.com.au
