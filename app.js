@@ -44,12 +44,10 @@ app.get("/ccp/chat", function(req, response)
 	//console.log("get cookies", req.cookies);
 	
 	
-	
-	
     req.pipe(get).pipe(response);
 	
-	console.log(JSON.stringify(get.headers));
-	console.log(JSON.stringify(response.headers));
+	//console.log(JSON.stringify(get.headers));
+	//console.log(JSON.stringify(response.headers));
 	
 	
 });
@@ -90,14 +88,15 @@ app.post("/ccp/chat", function(req, response)
             body: req.rawBody
         });
 
-	console.log("post header" , req.headers);
-	console.log("post cookies", req.cookies);
+	//console.log("post header" , req.headers);
+	//console.log("post cookies", req.cookies);
 	//console.log("body", req.rawBody);
 	
 
     req.pipe(post).pipe(response);
 	//console.log("response", response);
-	
+	console.log("post header" , post.headers);
+	console.log("post cookies", post.cookies);	
 });
 
 app.get("/ccp/chat/transcript.pdf", function(req, response)
