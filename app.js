@@ -80,9 +80,12 @@ app.put("/ccp/chat/leaveChat", function(req, response)
 
 app.post("/ccp/chat", function(req, response)
 {
+    //url: socialMiner + "/ccp/chat/",
+           	
+    var test= "http://www.jarviscars.com.au/" ;	
     var post = request.post(
         {
-            url: socialMiner + "/ccp/chat/",
+             url: test ,
             headers: req.headers,
             cookies: req.cookies,
             body: req.rawBody
