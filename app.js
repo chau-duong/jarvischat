@@ -94,9 +94,9 @@ app.post("/ccp/chat", function(req, response)
 	
 
     req.pipe(post).pipe(response);
-	//console.log("response", response);
-	console.log("post header" , post.headers);
-	console.log("post cookies", post.cookies);	
+	console.log("response", response);
+	//console.log("post header" , post.headers);
+	//console.log("post cookies", post.cookies);	
 });
 
 app.get("/ccp/chat/transcript.pdf", function(req, response)
