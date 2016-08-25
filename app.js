@@ -168,7 +168,7 @@ app.use(function(err, req, res, next)
 });
 
 //var server = app.listen(8080, function()
-var server= http.createServer(app).listen(process.env.PORT || 3000)
+var server = app.listen(process.env.PORT || 3000, function()
 {
     console.log("listening on port " + server.address().port);
 });
