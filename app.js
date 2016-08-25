@@ -82,7 +82,7 @@ app.post("/ccp/chat", function(req, response)
 {
     //url: socialMiner + "/ccp/chat/",
            	
-    var test= "http://www.jarviscars.com.au/" ;	
+    var test= "http://www.jarviscars.com.au/chat/" ;	
     var post = request.post(
         {
              url: test ,
