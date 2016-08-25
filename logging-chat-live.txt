@@ -1,0 +1,33 @@
+Sample of data: Verbose information:
+<pre>* About to connect() to socialminer.jarviscars.com.au port 443 (#0)
+*   Trying 203.47.81.195... * connected
+* Connected to socialminer.jarviscars.com.au (203.47.81.195) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: /etc/ssl/certs/ca-certificates.crt
+  CApath: none
+* SSL connection using AES256-SHA
+* Server certificate:
+* 	 subject: /OU=Domain Control Validated/CN=socialminer.jarviscars.com.au
+* 	 start date: 2016-05-26 03:35:38 GMT
+* 	 expire date: 2019-05-26 03:15:38 GMT
+* 	 issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//CN=Go Daddy Secure Certificate Authority - G2
+* SSL certificate verify result: self signed certificate in certificate chain (19), continuing anyway.
+> POST /ccp/chat/ HTTP/1.1
+Host: socialminer.jarviscars.com.au
+Accept: */*
+Cookie: 
+Content-Type: application/xml
+Content-Length: 348
+
+< HTTP/1.1 201 Created
+< Set-Cookie: JSESSIONID=384BFDFC81221ED8102E0BA8430E77B2; Path=/ccp/; Secure
+< Location: https://socialminer.jarviscars.com.au/ccp-webapp/ccp/socialcontact/B122ADF110000156000000CE53EFFEC5
+< Content-Type: text/plain
+< Content-Length: 0
+< Date: Mon, 22 Aug 2016 07:24:15 GMT
+< Server:  
+< 
+* Connection #0 to host socialminer.jarviscars.com.au left intact
+* Closing connection #0
+</pre>
+ 

@@ -1,0 +1,154 @@
+Microsoft Windows [Version 10.0.10586]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\Users\chaud>cd c:\work\customer-sample-chat
+The system cannot find the path specified.
+
+C:\Users\chaud>cd c:\work\customer-chat-sample
+
+c:\work\customer-chat-sample>\cd node
+'\cd' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\work\customer-chat-sample>cd node
+
+c:\work\customer-chat-sample\node>node app.js --socialminer socialminer.jarviscars.com.au
+listening on port 8080
+GET /chat.html 304 19.719 ms - -
+GET /javascripts/utils.js 304 4.296 ms - -
+GET /javascripts/customer_chat.js 304 9.496 ms - -
+GET /favicon.ico 404 10.260 ms - 969
+post header { host: 'localhost:8080',
+  connection: 'keep-alive',
+  'content-length': '347',
+  accept: '*/*',
+  origin: 'http://localhost:8080',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type': 'application/xml',
+  referer: 'http://localhost:8080/chat.html',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'en-US,en;q=0.8' }
+post cookies {}
+POST /ccp/chat/ 201 258.983 ms - 0
+get header { host: 'localhost:8080',
+  connection: 'keep-alive',
+  accept: 'text/plain, */*; q=0.01',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type': 'application/xml',
+  referer: 'http://localhost:8080/chat.html',
+  'accept-encoding': 'gzip, deflate, sdch',
+  'accept-language': 'en-US,en;q=0.8',
+  cookie: 'JSESSIONID=BECE5EDF0E90378F5E62D6B23DDB4EA0' }
+get cookies { JSESSIONID: 'BECE5EDF0E90378F5E62D6B23DDB4EA0' }
+GET /ccp/chat/?eventid=0&_=1471928306115 200 36.802 ms - 141
+get header { host: 'localhost:8080',
+  connection: 'keep-alive',
+  accept: 'text/plain, */*; q=0.01',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type': 'application/xml',
+  referer: 'http://localhost:8080/chat.html',
+  'accept-encoding': 'gzip, deflate, sdch',
+  'accept-language': 'en-US,en;q=0.8',
+  cookie: 'JSESSIONID=BECE5EDF0E90378F5E62D6B23DDB4EA0' }
+get cookies { JSESSIONID: 'BECE5EDF0E90378F5E62D6B23DDB4EA0' }
+GET /ccp/chat/?eventid=1&_=1471928306116 200 30.290 ms - 80
+get header { host: 'localhost:8080',
+  connection: 'keep-alive',
+  accept: 'text/plain, */*; q=0.01',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type': 'application/xml',
+  referer: 'http://localhost:8080/chat.html',
+  'accept-encoding': 'gzip, deflate, sdch',
+  'accept-language': 'en-US,en;q=0.8',
+  cookie: 'JSESSIONID=BECE5EDF0E90378F5E62D6B23DDB4EA0' }
+get cookies { JSESSIONID: 'BECE5EDF0E90378F5E62D6B23DDB4EA0' }
+GET /ccp/chat/?eventid=1&_=1471928306117 200 22.666 ms - 80
+get header { host: 'localhost:8080',
+  connection: 'keep-alive',
+  accept: 'text/plain, */*; q=0.01',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type': 'application/xml',
+  referer: 'http://localhost:8080/chat.html',
+  'accept-encoding': 'gzip, deflate, sdch',
+  'accept-language': 'en-US,en;q=0.8',
+  cookie: 'JSESSIONID=BECE5EDF0E90378F5E62D6B23DDB4EA0' }
+get cookies { JSESSIONID: 'BECE5EDF0E90378F5E62D6B23DDB4EA0' }
+GET /ccp/chat/?eventid=1&_=1471928306118 200 27.216 ms - 162
+GET /chat.html 304 1.524 ms - -
+GET /javascripts/utils.js 304 1.750 ms - -
+GET /javascripts/customer_chat.js 304 3.803 ms - -
+GET /chat.html 304 1.577 ms - -
+GET /javascripts/utils.js 304 0.815 ms - -
+GET /javascripts/customer_chat.js 304 0.700 ms - -
+GET /favicon.ico 404 5.157 ms - 969
+post header { host: 'localhost:8080',
+  connection: 'keep-alive',
+  'content-length': '349',
+  accept: '*/*',
+  origin: 'http://localhost:8080',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type': 'application/xml',
+  referer: 'http://localhost:8080/chat.html',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'en-US,en;q=0.8' }
+post cookies {}
+POST /ccp/chat/ 201 1278.753 ms - 0
+get header { host: 'localhost:8080',
+  connection: 'keep-alive',
+  accept: 'text/plain, */*; q=0.01',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type': 'application/xml',
+  referer: 'http://localhost:8080/chat.html',
+  'accept-encoding': 'gzip, deflate, sdch',
+  'accept-language': 'en-US,en;q=0.8',
+  cookie: 'JSESSIONID=E14F8685CF28872F4414108163F604E1' }
+get cookies { JSESSIONID: 'E14F8685CF28872F4414108163F604E1' }
+GET /ccp/chat/?eventid=0&_=1471928351562 200 29.698 ms - 141
+get header { host: 'localhost:8080',
+  connection: 'keep-alive',
+  accept: 'text/plain, */*; q=0.01',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type': 'application/xml',
+  referer: 'http://localhost:8080/chat.html',
+  'accept-encoding': 'gzip, deflate, sdch',
+  'accept-language': 'en-US,en;q=0.8',
+  cookie: 'JSESSIONID=E14F8685CF28872F4414108163F604E1' }
+get cookies { JSESSIONID: 'E14F8685CF28872F4414108163F604E1' }
+GET /ccp/chat/?eventid=1&_=1471928351563 200 27.828 ms - 162
+PUT /ccp/chat/leaveChat 200 27.523 ms - 0
+get header { host: 'localhost:8080',
+  connection: 'keep-alive',
+  accept: 'text/plain, */*; q=0.01',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type': 'application/xml',
+  referer: 'http://localhost:8080/chat.html',
+  'accept-encoding': 'gzip, deflate, sdch',
+  'accept-language': 'en-US,en;q=0.8',
+  cookie: 'JSESSIONID=E14F8685CF28872F4414108163F604E1' }
+get cookies { JSESSIONID: 'E14F8685CF28872F4414108163F604E1' }
+GET /ccp/chat/?eventid=2&_=1471928351564 200 30.489 ms - 80
+get header { host: 'localhost:8080',
+  connection: 'keep-alive',
+  accept: 'text/plain, */*; q=0.01',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type': 'application/xml',
+  referer: 'http://localhost:8080/chat.html',
+  'accept-encoding': 'gzip, deflate, sdch',
+  'accept-language': 'en-US,en;q=0.8',
+  cookie: 'JSESSIONID=E14F8685CF28872F4414108163F604E1' }
+get cookies { JSESSIONID: 'E14F8685CF28872F4414108163F604E1' }
+GET /ccp/chat/?eventid=2&_=1471928351565 200 28.540 ms - 80
+
+
+
+node app.js --socialminer socialminer.jarviscars.com.au

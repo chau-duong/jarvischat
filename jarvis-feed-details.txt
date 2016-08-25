@@ -1,0 +1,26 @@
+feeds>
+<Feed>
+<changeStamp>3</changeStamp>
+<chatInactivityTimeout>300</chatInactivityTimeout>
+<chatJoinTimeout>60</chatJoinTimeout>
+<description>
+Created by CCX application as part of CCX chat configuration.
+</description>
+<name>CCX Chat Feed</name>
+<pollingInterval>0</pollingInterval>
+<pushFeedURL>
+http://socialminer.jarviscars.com.au/ccp-webapp/ccp/chatfeed/100000
+</pushFeedURL>
+<refURL>
+http://socialminer.jarviscars.com.au/ccp-webapp/ccp/feed/100000
+</refURL>
+<replyTemplateRefURL>
+http://socialminer.jarviscars.com.au/ccp-webapp/ccp/template/reply/303
+</replyTemplateRefURL>
+<status>1</status>
+<tags>
+<tag>ccx_chat_req</tag>
+</tags>
+<type>8</type>
+</Feed>
+</feeds>
