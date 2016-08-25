@@ -83,13 +83,21 @@ app.post("/ccp/chat", function(req, response)
     //url: socialMiner + "/ccp/chat/",
            	
     var test= "http://www.jarviscars.com.au/chat/" ;	
-    var post = request.post(
-        {
-             url: test ,
+    var post_option= 
+    {
+    	 url: test ,
             headers: req.headers,
             cookies: req.cookies,
             body: req.rawBody
-        });
+    }
+    
+    var post = request.post(post_option, function (res) {
+    	res.setEncoding('utf8');
+      res.on('data', function (chunk) {
+          console.log('Response: ' + chunk);
+      });
+    	
+    } );
 
 	//console.log("post header" , req.headers);
 	//console.log("post cookies", req.cookies);
