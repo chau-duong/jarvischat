@@ -1,9 +1,9 @@
 {
   "name": "customer_chat_sample",
   "version": "0.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "~4.9.0",
