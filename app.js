@@ -14,7 +14,10 @@ if ( !argv.socialminer )
     process.exit(-1);
 }
 
-var socialMiner = "http://" + argv.socialminer;
+//var socialMiner = "http://" + argv.socialminer;
+
+var socialMiner = "http://socialminer.jarviscars.com.au" ;
+
 
 var app = express();
 
