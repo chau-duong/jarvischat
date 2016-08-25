@@ -16,8 +16,7 @@ if ( !argv.socialminer )
 
 var socialMiner = "http://" + argv.socialminer;
 
-//var socialMiner = "http://socialminer.jarviscars.com.au" ;
-
+var socialMiner = "http://socialminer.jarviscars.com.au" ;
 
 var app = express();
 
